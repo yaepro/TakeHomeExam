@@ -461,3 +461,248 @@ Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Local
 [2017.05.18-17.43.28:899][ 56]LogSavePackage: Save=25.67ms
 [2017.05.18-17.43.28:899][ 56]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/HeroCreateBFEBC088459F19687295DAA12F8AE6DE.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Level/HeroCreate.umap'
 [2017.05.18-17.43.28:904][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Level/HeroCreate.umap
+[2017.05.18-17.46.07:807][854]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-17.46.08:539][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/BulletBP.uasset" SILENT=true
+[2017.05.18-17.46.08:560][872]LogSavePackage: Save=18.42ms
+[2017.05.18-17.46.08:560][872]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/BulletBP045661304A36DC6F59AEA380CE91C29E.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/BulletBP.uasset'
+[2017.05.18-17.46.08:566][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/BulletBP.uasset
+[2017.05.18-17.46.38:566][661]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.46.38:567][661]LogTemp:Display: Added material ShaderMap 0x000002471A197200 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.46.38:606][661]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000002471A197200
+[2017.05.18-17.46.38:707][661]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.46.38:707][661]LogTemp:Display: Added material ShaderMap 0x000002470F1FE400 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.46.38:715][661]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000002470F1FE400
+[2017.05.18-17.46.38:715][661]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.46.40:421][714]LogTemp:Display: Finished compile of shader map 0x000002470F1FE400
+[2017.05.18-17.46.40:421][714]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000002470F1FE400, marking material BulletMaterial as finished
+[2017.05.18-17.46.40:421][714]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.46.40:433][715]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 80 instructions
+[2017.05.18-17.46.40:433][715]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2017.05.18-17.46.40:433][715]MaterialEditorStats: 정보 Texture samplers: 1/16
+[2017.05.18-17.46.45:362][ 74]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.46.45:363][ 74]LogTemp:Display: Added material ShaderMap 0x000002471485EE80 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.46.45:381][ 74]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000002471485EE80
+[2017.05.18-17.46.45:384][ 74]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.46.45:385][ 74]LogTemp:Display: Added material ShaderMap 0x000002478E639600 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.46.45:395][ 74]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000002478E639600
+[2017.05.18-17.46.45:395][ 74]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.46.47:446][223]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.46.47:447][223]LogTemp:Display: Added material ShaderMap 0x00000247832C7900 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.46.47:453][223]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x00000247832C7900
+[2017.05.18-17.46.47:463][223]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.46.47:463][223]LogTemp:Display: Added material ShaderMap 0x000002478307A400 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.46.47:469][223]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000002478307A400
+[2017.05.18-17.46.47:469][223]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.46.48:094][268]LogTemp:Display: Finished compile of shader map 0x000002478E639600
+[2017.05.18-17.46.48:094][268]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000002478E639600, marking material BulletMaterial as finished
+[2017.05.18-17.46.48:094][268]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.46.48:687][312]LogTemp:Display: Finished compile of shader map 0x000002478307A400
+[2017.05.18-17.46.48:687][312]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000002478307A400, marking material BulletMaterial as finished
+[2017.05.18-17.46.48:687][312]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.46.48:700][313]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-17.46.48:700][313]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-17.46.48:700][313]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-17.46.49:559][376]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.46.49:559][376]LogTemp:Display: Added material ShaderMap 0x0000024780ECD600 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.46.49:564][376]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x0000024780ECD600
+[2017.05.18-17.46.49:564][376]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.46.49:565][376]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-17.46.49:565][376]LogTemp:Display: Added material ShaderMap 0x000002478E587200 with Material 0x00000247830D3400 to ShaderMapsBeingCompiled
+[2017.05.18-17.46.49:567][376]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002478E587200
+[2017.05.18-17.46.50:549][448]LogTemp:Display: Finished compile of shader map 0x000002478E587200
+[2017.05.18-17.46.50:549][448]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000002478E587200, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-17.46.50:549][448]LogTemp:Display: Marking material as finished 0x00000247830D3400
+[2017.05.18-17.46.50:682][458]LogTemp:Display: Finished compile of shader map 0x0000024780ECD600
+[2017.05.18-17.46.50:682][458]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x0000024780ECD600, marking material BulletMaterial as finished
+[2017.05.18-17.46.50:683][458]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.46.50:695][459]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-17.46.50:695][459]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-17.46.50:695][459]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-17.47.23:690][980]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'MaterialGraphNode_11.MaterialExpressionConstant_5')'
+[2017.05.18-17.47.23:704][980]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.47.23:705][980]LogTemp:Display: Added material ShaderMap 0x0000024782FB8100 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.23:710][980]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x0000024782FB8100
+[2017.05.18-17.47.23:710][980]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.47.25:264][ 94]LogTemp:Display: Finished compile of shader map 0x0000024782FB8100
+[2017.05.18-17.47.25:264][ 94]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x0000024782FB8100, marking material BulletMaterial as finished
+[2017.05.18-17.47.25:264][ 94]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.47.25:277][ 95]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-17.47.25:277][ 95]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-17.47.25:277][ 95]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-17.47.30:853][508]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.47.30:853][508]LogTemp:Display: Added material ShaderMap 0x000002470EFAD280 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.30:858][508]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000002470EFAD280
+[2017.05.18-17.47.30:858][508]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.47.30:883][508]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-17.47.30:883][508]LogTemp:Display: Added material ShaderMap 0x0000024714AA4100 with Material 0x00000247830DBD00 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.30:885][508]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x0000024714AA4100
+[2017.05.18-17.47.31:874][582]LogTemp:Display: Finished compile of shader map 0x0000024714AA4100
+[2017.05.18-17.47.31:874][582]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x0000024714AA4100, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-17.47.31:874][582]LogTemp:Display: Marking material as finished 0x00000247830DBD00
+[2017.05.18-17.47.32:053][594]LogTemp:Display: Finished compile of shader map 0x000002470EFAD280
+[2017.05.18-17.47.32:053][594]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000002470EFAD280, marking material BulletMaterial as finished
+[2017.05.18-17.47.32:053][594]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.47.32:063][595]MaterialEditorStats: 정보 Base pass shader without light map: 24 instructions
+[2017.05.18-17.47.32:063][595]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-17.47.32:063][595]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-17.47.33:481][700]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.47.33:482][700]LogTemp:Display: Added material ShaderMap 0x0000024714AA4B80 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.33:486][700]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x0000024714AA4B80
+[2017.05.18-17.47.33:486][700]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.47.34:460][773]LogTemp:Display: Finished compile of shader map 0x0000024714AA4B80
+[2017.05.18-17.47.34:460][773]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x0000024714AA4B80, marking material BulletMaterial as finished
+[2017.05.18-17.47.34:460][773]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.47.34:473][774]MaterialEditorStats: 정보 Base pass shader without light map: 28 instructions
+[2017.05.18-17.47.34:473][774]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-17.47.34:473][774]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-17.47.35:028][814]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.47.35:028][814]LogTemp:Display: Added material ShaderMap 0x0000024714AA5600 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.35:033][814]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x0000024714AA5600
+[2017.05.18-17.47.35:033][814]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.47.36:043][886]LogTemp:Display: Finished compile of shader map 0x0000024714AA5600
+[2017.05.18-17.47.36:043][886]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x0000024714AA5600, marking material BulletMaterial as finished
+[2017.05.18-17.47.36:043][886]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.47.36:056][887]MaterialEditorStats: 정보 Base pass shader without light map: 28 instructions
+[2017.05.18-17.47.36:056][887]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-17.47.36:056][887]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-17.47.37:179][965]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.47.37:180][965]LogTemp:Display: Added material ShaderMap 0x000002470EFBCF00 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.37:184][965]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000002470EFBCF00
+[2017.05.18-17.47.37:184][965]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.47.37:208][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-17.47.37:209][965]LogTemp:Display: Added material ShaderMap 0x000002478E587200 with Material 0x0000024783509C00 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.37:211][965]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002478E587200
+[2017.05.18-17.47.38:165][ 32]LogTemp:Display: Finished compile of shader map 0x000002478E587200
+[2017.05.18-17.47.38:165][ 32]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000002478E587200, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-17.47.38:165][ 32]LogTemp:Display: Marking material as finished 0x0000024783509C00
+[2017.05.18-17.47.38:266][ 39]LogTemp:Display: Finished compile of shader map 0x000002470EFBCF00
+[2017.05.18-17.47.38:266][ 39]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x000002470EFBCF00, marking material BulletMaterial as finished
+[2017.05.18-17.47.38:266][ 39]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.47.38:279][ 40]MaterialEditorStats: 정보 Base pass shader without light map: 28 instructions
+[2017.05.18-17.47.38:279][ 40]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-17.47.38:279][ 40]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-17.47.38:465][ 52]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.47.38:465][ 52]LogTemp:Display: Added material ShaderMap 0x0000024714910F00 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.38:470][ 52]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x0000024714910F00
+[2017.05.18-17.47.38:470][ 52]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.47.38:500][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.18-17.47.38:500][ 52]LogTemp:Display: Added material ShaderMap 0x000002470EFAE080 with Material 0x0000024714AB1600 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.38:502][ 52]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000002470EFAE080
+[2017.05.18-17.47.39:532][125]LogTemp:Display: Finished compile of shader map 0x000002470EFAE080
+[2017.05.18-17.47.39:532][125]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000002470EFAE080, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.18-17.47.39:532][125]LogTemp:Display: Marking material as finished 0x0000024714AB1600
+[2017.05.18-17.47.39:676][135]LogTemp:Display: Finished compile of shader map 0x0000024714910F00
+[2017.05.18-17.47.39:676][135]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x0000024714910F00, marking material BulletMaterial as finished
+[2017.05.18-17.47.39:676][135]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.47.39:692][136]MaterialEditorStats: 정보 Base pass shader without light map: 28 instructions
+[2017.05.18-17.47.39:692][136]MaterialEditorStats: 정보 Vertex shader: 81 instructions
+[2017.05.18-17.47.39:692][136]MaterialEditorStats: 정보 Texture samplers: 3/16
+[2017.05.18-17.47.42:896][370]LogMaterialEditor: Saving and Compiling material BulletMaterial
+[2017.05.18-17.47.43:608][370]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.47.43:609][370]LogTemp:Display: Added material ShaderMap 0x0000024714910480 with Material 0x000002479B63DF80 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.43:618][370]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x0000024714910480
+[2017.05.18-17.47.43:618][370]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.47.43:639][370]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.47.43:640][370]LogTemp:Display: Added material ShaderMap 0x000002470F1FE400 with Material 0x000002479AA4E980 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.43:647][370]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x000002470F1FE400
+[2017.05.18-17.47.43:649][370]LogMaterial: Missing cached shader map for material BulletMaterial, compiling. 
+[2017.05.18-17.47.43:650][370]LogTemp:Display: Added material ShaderMap 0x0000024782FB8800 with Material 0x000002479AA4E980 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.43:656][370]LogTemp:Display: Kicking off shader compilation for BulletMaterial, GameThreadShaderMap 0x0000024782FB8800
+[2017.05.18-17.47.43:657][370]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.18-17.47.43:676][370]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BulletMaterial, compiling. 
+[2017.05.18-17.47.43:677][370]LogTemp:Display: Added material ShaderMap 0x000002470EFBFC80 with Material 0x0000024714AB0D00 to ShaderMapsBeingCompiled
+[2017.05.18-17.47.44:024][370]LogTemp:Display: Finished compile of shader map 0x000002470EFBFC80
+[2017.05.18-17.47.44:024][370]LogTemp:Display: Shader map FDebugViewModeMaterialProxy BulletMaterial complete, GameThreadShaderMap 0x000002470EFBFC80, marking material FDebugViewModeMaterialProxy BulletMaterial as finished
+[2017.05.18-17.47.44:024][370]LogTemp:Display: Marking material as finished 0x0000024714AB0D00
+[2017.05.18-17.47.44:032][370]TextureStreamingBuild:Display: Compiling optional shaders took 0.360 seconds.
+[2017.05.18-17.47.45:054][370]LogTemp:Display: Finished compile of shader map 0x0000024782FB8800
+[2017.05.18-17.47.45:054][370]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x0000024782FB8800, marking material BulletMaterial as finished
+[2017.05.18-17.47.45:054][370]LogTemp:Display: Marking material as finished 0x000002479AA4E980
+[2017.05.18-17.47.45:059][370]LogTemp:Display: Finished compile of shader map 0x0000024714910480
+[2017.05.18-17.47.45:059][370]LogTemp:Display: Shader map BulletMaterial complete, GameThreadShaderMap 0x0000024714910480, marking material BulletMaterial as finished
+[2017.05.18-17.47.45:059][370]LogTemp:Display: Marking material as finished 0x000002479B63DF80
+[2017.05.18-17.47.45:225][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/BulletMaterial" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/BulletMaterial.uasset" SILENT=true
+[2017.05.18-17.47.45:243][370]LogSavePackage: Save=13.72ms
+[2017.05.18-17.47.45:243][370]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/BulletMaterial15F38FEC44C150E6D267EB8ECA0D30EF.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/BulletMaterial.uasset'
+[2017.05.18-17.47.45:248][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/BulletMaterial.uasset
+[2017.05.18-17.48.23:818][715]BlueprintLog: New page: BulletBP 컴파일
+[2017.05.18-17.49.13:240][933]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-17.49.17:291][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset" SILENT=true
+[2017.05.18-17.49.17:312][201]LogSavePackage: Save=18.61ms
+[2017.05.18-17.49.17:312][201]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/GunBP55952ABB43108D19D74C42BDD4EB4EBB.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset'
+[2017.05.18-17.49.17:316][201]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset
+[2017.05.18-17.49.17:936][246]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-17.49.19:384][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset" SILENT=true
+[2017.05.18-17.49.19:407][320]LogSavePackage: Save=17.55ms
+[2017.05.18-17.49.19:407][320]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/GunBP5246320E4F7A788BC3345ABBF098901D.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset'
+[2017.05.18-17.49.19:410][320]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset
+[2017.05.18-17.49.19:904][356]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-17.49.57:746][269]LogLinker: '/Game/Gun/Gun' 파일을 찾을 수 없습니다.
+[2017.05.18-17.49.57:746][269]LogLinker: '/Game/Gun/Gun' 파일을 찾을 수 없습니다.
+[2017.05.18-17.49.57:747][269]LogLinker: '/Game/Gun/Bullet' 파일을 찾을 수 없습니다.
+[2017.05.18-17.49.57:747][269]LogLinker: '/Game/Gun/Bullet' 파일을 찾을 수 없습니다.
+[2017.05.18-17.49.57:749][269]LogBlueprint:Warning: [GunBP] 'FirePoint' variable not found. Base class was probably changed.
+[2017.05.18-17.50.04:914][763]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-17.50.15:755][240]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-17.50.15:771][240]LogBlueprint:Warning: [Compiler GunBP] 경고 이름이 "FirePoint" 인 함수를 'GunBP_C' 에서 찾을 수 없었습니다.
+'GunBP_C' 컴파일이  FirePoint 구하기  에 대해 되었는지 확인하세요.
+[2017.05.18-17.50.15:772][240]LogBlueprint:Error: [Compiler GunBP] 오류  Fire Point  와 연관된 프로퍼티를 찾지 못했습니다.
+[2017.05.18-17.50.16:038][240]BlueprintEditorCompileResults:Warning: 경고 이름이 "FirePoint" 인 함수를 'GunBP_C' 에서 찾을 수 없었습니다.
+'GunBP_C' 컴파일이  FirePoint 구하기  에 대해 되었는지 확인하세요.
+[2017.05.18-17.50.16:038][240]BlueprintEditorCompileResults:Error: 오류  Fire Point  와 연관된 프로퍼티를 찾지 못했습니다.
+[2017.05.18-17.50.16:038][240]LogBlueprint:Warning: [Compiler GunBP] 경고 [1306.42] GunBP 컴파일에 실패했습니다. 치명적 문제 1 회, 경고 1 회, [소요시간 283 ms] (/Game/Gun/GunBP.GunBP)
+[2017.05.18-17.50.31:696][777]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2017.05.18-17.50.49:570][ 91]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-17.50.51:291][254]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-17.50.51:911][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset" SILENT=true
+[2017.05.18-17.50.51:935][297]LogSavePackage: Save=20.57ms
+[2017.05.18-17.50.51:935][297]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/GunBP488AD4D948C814040EC7289C994E4538.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset'
+[2017.05.18-17.50.51:940][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset
+[2017.05.18-17.50.52:333][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gun/GunBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset" SILENT=true
+[2017.05.18-17.50.52:350][334]LogSavePackage: Save=13.52ms
+[2017.05.18-17.50.52:350][334]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/GunBPC9D6BC5E496A1C8B6CB3C08E06682605.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset'
+[2017.05.18-17.50.52:352][334]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Gun/GunBP.uasset
+[2017.05.18-17.50.52:758][374]BlueprintLog: New page: GunBP 컴파일
+[2017.05.18-17.51.03:840][470]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.05.18-17.51.03:881][470]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_4.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.05.18-17.51.04:056][471]LogRenderer: Reallocating scene render targets to support 740x620 NumSamples 1 (Frame:104731).
+[2017.05.18-17.53.09:726][559]LogBlueprint:Warning: [HeroBP] 'Gun' variable not found. Base class was probably changed.
+[2017.05.18-17.53.09:726][559]LogBlueprint:Warning: [HeroBP] 'Gun' variable not found. Base class was probably changed.
+[2017.05.18-17.53.22:352][541]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.18-17.53.59:922][430]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-17.54.00:620][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-17.54.00:654][473]LogSavePackage: Save=29.79ms
+[2017.05.18-17.54.00:654][473]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/HeroBPC4C1B47A4E8C3DF18E88D7A1D94A6B00.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset'
+[2017.05.18-17.54.00:659][473]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset
+[2017.05.18-17.55.01:039][116]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-17.55.03:267][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-17.55.03:303][262]LogSavePackage: Save=31.89ms
+[2017.05.18-17.55.03:303][262]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/HeroBP2554CFE64922051D102C05AE0031D4DB.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset'
+[2017.05.18-17.55.03:307][262]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset
+[2017.05.18-17.55.30:925][557]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-17.55.31:955][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-17.55.31:990][604]LogSavePackage: Save=31.29ms
+[2017.05.18-17.55.31:990][604]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/HeroBP6F2E28484AFBA87CC4B721BA1BAE1B64.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset'
+[2017.05.18-17.55.31:995][604]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset
+[2017.05.18-17.55.32:896][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-17.55.32:923][684]LogSavePackage: Save=23.89ms
+[2017.05.18-17.55.32:923][684]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/HeroBP0900208F4BC3D8F44253EBAB0AECE96C.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset'
+[2017.05.18-17.55.32:926][684]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset
+[2017.05.18-17.55.34:227][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.18-17.55.36:185][944]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-17.55.36:198][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-17.55.36:198][944]PIE: New page: PIE 세션: HeroCreate (2017. 5. 19. 오전 11:55:36)
+[2017.05.18-17.55.36:198][944]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HeroCreate
+[2017.05.18-17.55.36:200][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002273s)
+[2017.05.18-17.55.36:201][944]LogAIModule: Creating AISystem for world HeroCreate
+[2017.05.18-17.55.36:201][944]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2017.05.18-17.55.36:201][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HeroCreate.HeroCreate to /Game/Level/UEDPIE_0_HeroCreate.HeroCreate (0.003293s)
+[2017.05.18-17.55.36:230][944]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-17.55.36:246][944]LogInit: FAudioDevice initialized.
+[2017.05.18-17.55.36:278][944]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-17.55.36:280][944]LogWorld: Bringing World /Game/Level/UEDPIE_0_HeroCreate.HeroCreate up for play (max tick rate 0) at 2017.05.19-02.55.36
+[2017.05.18-17.55.36:280][944]LogWorld: Bringing up level for play took: 0.000781
+[2017.05.18-17.55.36:282][944]PIE: 정보 /Game/Level/UEDPIE_0_HeroCreate 에 대한 에디터에서 플레이 시작 시간: -0.561
+[2017.05.18-17.55.49:168][440]LogSavePackage: Save=26.49ms
+[2017.05.18-17.55.49:168][440]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/HeroCreate111D71F74A93B4B2B7BABEB41F4D8D2E.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Level/HeroCreate.umap'
+[2017.05.18-17.55.49:171][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Level/HeroCreate.umap
