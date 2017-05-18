@@ -1,0 +1,888 @@
+﻿Log file open, 05/19/17 04:40:26
+LogInit:Display: Running engine for game: TakeHome05
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1483289296) SRandInit(-1483289296).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082197
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.18-19.40.27:431][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-19.40.27:431][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.18-19.40.27:501][  0]LogInit: Computer: ARONG-PC
+[2017.05.18-19.40.27:501][  0]LogInit: User: ARONG
+[2017.05.18-19.40.27:501][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.18-19.40.27:501][  0]LogInit: High frequency timer resolution =3.319353 MHz
+[2017.05.18-19.40.27:501][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.18-19.40.27:501][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.18-19.40.27:501][  0]LogMemory: Process Physical Memory: 264.02 MB used, 264.02 MB peak
+[2017.05.18-19.40.27:501][  0]LogMemory: Process Virtual Memory: 262.42 MB used, 262.42 MB peak
+[2017.05.18-19.40.27:501][  0]LogMemory: Physical Memory: 5974.11 MB used,  2143.16 MB free, 8117.27 MB total
+[2017.05.18-19.40.27:501][  0]LogMemory: Virtual Memory: 643.70 MB used,  2143.16 MB free, 134217728.00 MB total
+[2017.05.18-19.40.27:664][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (502993589) Localized String: (내부 시간 누산기 - 이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (319969718) Localized String: (연관성 테스트에 무시 - true 인 경우 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" (연관 애님) 노드가
+이 노드를 무시합니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1232800293) Localized String: (블렌드 웨이트 - 이 노드에 대해 마지막으로 접한 블렌드 웨이트입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝까지 재생되면 반복할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복할까요?)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:bSkipFirstUpdateTransition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1865475011) Localized String: (첫 업데이트시 도입 상태에서의 트랜지션을 건너뛸까요? 
+기본은 true 로, 첫 업데이트시에는 트랜지션 데이터를 버립니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1865475011) Localized String: (첫 번째 업데이트 트랜지션 건너뛰기 - 첫 번째 업데이트에서 입력 스테이트의 트랜지션을 건너뜁니까?
+디폴트는 true 고 첫 번째 업데이트의 트랜지션 데이터를 버립니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (블렌드스페이스에서 샘플링할 X 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2060772590) Localized String: (X - 블렌드스페이스 샘플의 X 좌표입니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (블렌드스페이스에서 샘플링할 Y 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (Y - 블렌드스페이스 샘플의 Y 좌표입니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (블렌드스페이스에서 샘플링할 Z 좌표입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1728943471) Localized String: (Z - 블렌드스페이스 샘플의 Z 좌표입니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (재생할 블렌드스페이스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1599043277) Localized String: (블렌드스페이스 - 재생할 블렌드스페이스 애셋입니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (이 머신에서 한 프레임 내 '동시에' 취할 수 있는 트랜지션 최대 수입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (1567650430) Localized String: (프레임 당 최대 트랜지션 - 한 프레임에서 이 머신이 동시에 취할 수 있는 트랜지션 최대 수입니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 배수입니다. 음수가 되면 애니메이션을 역순으로 재생하게 됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 되면 애니메이션을 거꾸로 재생합니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-207153555) Localized String: (시작 위치 범위는 [0,1] 이며, 재초기화시에만 적용됩니다.
+루핑을 하면, 1 회전 후 0.f 부터 시작할 것입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-207153555) Localized String: (시작 위치 - [0, 1] 범위의 시작 위치로, 재초기화할 때만 적용됩니다.
+반복하면 1회전 후 0.f 부터 시작됩니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorWidth):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1448580153) Localized String: (센서 폭 - 필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1448580153) Localized String: (필름백 또는 디지털 센서의 가로 크기로, mm 단위입니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorAspectRatio):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-194807515) Localized String: (센서 종횡비 - 읽기 전용입니다. 센서 치수에서 계산했습니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-194807515) Localized String: (읽기 전용입니다. 센서 크기에서 계산했습니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (2133979316) Localized String: (루프 - 애니메이션이 끝에 도달했을 때 계속 반복시켜야 할까요?)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (2133979316) Localized String: (애니메이션이 끝에 도달하면 계속해서 루핑시킬것인지 입니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:Sequence):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (421436424) Localized String: (시퀀스 - 재생할 애니메이션 시퀀스 애셋입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (421436424) Localized String: (재생할 애니메이션 시퀀스 애셋입니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (재생 속도 - 재생 속도 배수입니다. 음수가 될 수 있으며, 그러면 애니메이션이 거꾸로 재생됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1274923958) Localized String: (플레이 속도 배수입니다. 음수가 되면 애니메이션이 역방향으로 재생됩니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:StartPosition):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (771611000) Localized String: (시작 위치 - 시작 위치로 재초기화할 때만 적용됩니다.
+반복하면, 1회전 후 0.f 부터 시작됩니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (771611000) Localized String: (시작 위치로, 재초기화시에만 적용됩니다.
+루핑을 하면, 1회전 후 0.f 부터 시작할 것입니다.)
+[2017.05.18-19.40.27:711][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:CameraFilmbackSettings:SensorHeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ko/ToolTips.locres) Source String Hash: (-1311569777) Localized String: (센서 높이 - 필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1311569777) Localized String: (필름백 또는 디지털 센서의 세로 크기로, mm 단위입니다.)
+[2017.05.18-19.40.28:234][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.18-19.40.28:265][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 650' (Feature Level 11_0)
+[2017.05.18-19.40.28:265][  0]LogD3D11RHI:       994/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.18-19.40.28:267][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.18-19.40.28:267][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.18-19.40.28:267][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.18-19.40.28:272][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.18-19.40.28:272][  0]LogD3D11RHI:     GPU DeviceId: 0xfc6 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.18-19.40.28:272][  0]LogWindows: EnumDisplayDevices:
+[2017.05.18-19.40.28:272][  0]LogWindows:    0. 'NVIDIA GeForce GTX 650' (P:1 D:1)
+[2017.05.18-19.40.28:272][  0]LogWindows:    1. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.05.18-19.40.28:273][  0]LogWindows:    2. 'NVIDIA GeForce GTX 650' (P:0 D:0)
+[2017.05.18-19.40.28:273][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.05.18-19.40.28:273][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 650
+[2017.05.18-19.40.28:273][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.05.18-19.40.28:273][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.05.18-19.40.28:273][  0]LogRHI: Texture pool is 696 MB (70% of 994 MB)
+[2017.05.18-19.40.28:289][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.05.18-19.40.28:292][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.18-19.40.28:307][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.18-19.40.28:357][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Intermediate/Shaders/WorkingDirectory/11116/).
+[2017.05.18-19.40.28:357][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ARONG/AppData/Local/Temp/UnrealShaderWorkingDir/B96700954C5CD538B753D4BDB1A3503C/'.
+[2017.05.18-19.40.28:357][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.18-19.40.30:119][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.18-19.40.30:220][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.18-19.40.30:323][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.18-19.40.30:430][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.18-19.40.30:532][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.18-19.40.30:635][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.18-19.40.30:738][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.18-19.40.30:840][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.18-19.40.30:933][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.18-19.40.31:036][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.18-19.40.31:139][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.18-19.40.31:238][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.18-19.40.31:340][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.18-19.40.31:441][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.18-19.40.31:542][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.18-19.40.31:749][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.18-19.40.31:749][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.18-19.40.31:877][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.18-19.40.32:053][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.18-19.40.32:116][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.18-19.40.32:217][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.18-19.40.32:319][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.18-19.40.32:420][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.18-19.40.32:522][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.18-19.40.32:522][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.18-19.40.33:501][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.18-19.40.33:556][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/ARONG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-19.40.33:556][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ARONG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.18-19.40.33:556][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.18-19.40.33:556][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.18-19.40.33:556][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.18-19.40.33:556][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.18-19.40.33:573][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.18-19.40.33:586][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ARONG/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.18-19.40.33:595][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.18-19.40.33:596][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-19.40.33:596][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.18-19.40.33:882][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.18-19.40.33:884][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.18-19.40.34:212][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.18-19.40.34:307][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.18-19.40.34:406][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.18-19.40.34:406][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.18-19.40.34:406][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.18-19.40.35:129][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: takehome05, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1433872417
+[2017.05.18-19.40.35:204][  0]LogAssetRegistry: FAssetRegistry took 0.0217 seconds to start up
+[2017.05.18-19.40.35:288][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.034136 seconds
+[2017.05.18-19.40.35:294][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.18-19.40.35:294][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.18-19.40.35:294][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.18-19.40.35:439][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.18-19.40.38:396][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.18-19.40.38:467][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.18-19.40.39:326][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.18-19.40.40:048][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-19.40.40:092][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-19.40.40:192][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-19.40.40:291][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-19.40.42:833][  0]LogEngine: Initializing Engine...
+[2017.05.18-19.40.42:834][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.18-19.40.43:199][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.18-19.40.43:220][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-19.40.43:240][  0]LogInit: FAudioDevice initialized.
+[2017.05.18-19.40.43:266][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/ARONG/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.18-19.40.43:270][  0]LogInit: Texture streaming: Enabled
+[2017.05.18-19.40.43:478][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.18-19.40.43:659][  0]LogInit: Transaction tracking system initialized
+[2017.05.18-19.40.44:406][  0]BlueprintLog: New page: 에디터 로드
+[2017.05.18-19.40.46:323][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.05.18-19.40.47:752][  0]LogConsoleResponse:Display: 
+[2017.05.18-19.40.47:912][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.18-19.40.47:912][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.18-19.40.48:741][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/' took 0.01s
+[2017.05.18-19.40.50:104][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.05.18-19.40.50:104][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Level/HeroCreate.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.18-19.40.50:104][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.18-19.40.50:192][  0]MapCheck: New page: 맵 체크
+[2017.05.18-19.40.50:192][  0]LightingResults: New page: 라이팅 빌드
+[2017.05.18-19.40.50:438][  0]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 파일을 찾을 수 없습니다.
+[2017.05.18-19.40.50:438][  0]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2017.05.18-19.40.50:439][  0]LogLinker:Warning: ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.18-19.40.50:439][  0]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2017.05.18-19.40.50:439][  0]LoadErrors:Error: 오류 /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo
+[2017.05.18-19.40.50:439][  0]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 파일을 찾을 수 없습니다.
+[2017.05.18-19.40.50:439][  0]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2017.05.18-19.40.50:439][  0]LogLinker:Warning: ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.uasset 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.18-19.40.50:439][  0]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin 레퍼런싱한 것: CharacterMesh0
+[2017.05.18-19.40.50:439][  0]LoadErrors:Error: 오류 /Game/AnimationAssets/UE4_Mannequin/Mesh/SK_Mannequin : 애셋에 대한 파일을 찾을 수 없습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo
+[2017.05.18-19.40.50:546][  0]LogLinker:Warning: '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 파일을 찾을 수 없습니다.
+[2017.05.18-19.40.50:546][  0]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo 레퍼런싱한 것: SK_Mannequin
+[2017.05.18-19.40.50:546][  0]LogLinker:Warning: NULL 로드중 '/Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo' 애셋에 대한 파일을 찾을 수 없습니다.
+[2017.05.18-19.40.50:546][  0]LoadErrors: 정보 로드에 실패했습니다. /Game/AnimationAssets/UE4_Mannequin/Materials/M_UE4Man_ChestLogo.M_UE4Man_ChestLogo 레퍼런싱한 것: SK_Mannequin
+[2017.05.18-19.40.51:305][  0]LogAIModule: Creating AISystem for world HeroCreate
+[2017.05.18-19.40.51:330][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.18-19.40.51:330][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.18-19.40.51:437][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 106.726ms.
+[2017.05.18-19.40.51:437][  0]LogFileHelpers: Loading map 'HeroCreate' took 1.333
+[2017.05.18-19.40.51:491][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.05.18-19.40.51:572][  0]LogCollectionManager: Loaded 0 collections in 0.001888 seconds
+[2017.05.18-19.40.51:703][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/Collections/' took 0.01s
+[2017.05.18-19.40.51:703][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Developers/ARONG/Collections/' took 0.01s
+[2017.05.18-19.40.51:703][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Collections/' took 0.01s
+[2017.05.18-19.40.51:703][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.18-19.40.51:711][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2245 classes and 453 folders.
+[2017.05.18-19.40.51:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.18-19.40.51:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.18-19.40.51:856][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.18-19.40.51:922][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.18-19.40.52:076][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.18-19.40.52:150][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.18-19.40.52:158][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.05.18-19.40.52:273][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.18-19.40.52:273][  0]LogLoad: (Engine Initialization) Total time: 27.99 seconds
+[2017.05.18-19.40.52:273][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.22 seconds
+[2017.05.18-19.40.52:273][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.18-19.40.52:285][  0]LogOcInput: OculusInput pre-init called
+[2017.05.18-19.40.52:306][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.18-19.40.52:330][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-19.40.52:335][  0]LogSlate: Took 0.003252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.05.18-19.40.52:337][  0]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.18-19.40.52:340][  0]LogSlate: Took 0.000347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.18-19.40.52:402][  0]LogSlate: Took 0.012925 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-19.40.52:530][  1]LogAssetRegistry: Asset discovery search completed in 17.3475 seconds
+[2017.05.18-19.40.52:530][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.05.18-19.40.52:530][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2017.05.18-19.40.52:559][  2]LogRenderer: Reallocating scene render targets to support 748x464 NumSamples 1 (Frame:2).
+[2017.05.18-19.43.14:598][506]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-19.43.14:609][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-19.43.14:610][506]PIE: New page: PIE 세션: HeroCreate (2017. 5. 19. 오후 1:43:14)
+[2017.05.18-19.43.14:610][506]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HeroCreate
+[2017.05.18-19.43.14:613][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003283s)
+[2017.05.18-19.43.14:614][506]LogAIModule: Creating AISystem for world HeroCreate
+[2017.05.18-19.43.14:614][506]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2017.05.18-19.43.14:614][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HeroCreate.HeroCreate to /Game/Level/UEDPIE_0_HeroCreate.HeroCreate (0.004534s)
+[2017.05.18-19.43.14:645][506]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-19.43.14:658][506]LogInit: FAudioDevice initialized.
+[2017.05.18-19.43.14:725][506]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-19.43.14:727][506]LogWorld: Bringing World /Game/Level/UEDPIE_0_HeroCreate.HeroCreate up for play (max tick rate 0) at 2017.05.19-04.43.14
+[2017.05.18-19.43.14:727][506]LogWorld: Bringing up level for play took: 0.000925
+[2017.05.18-19.43.14:818][506]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.18-19.43.14:820][506]PIE: 정보 /Game/Level/UEDPIE_0_HeroCreate 에 대한 에디터에서 플레이 시작 시간: -0.022
+[2017.05.18-19.43.16:602][715]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:012A
+[2017.05.18-19.43.16:602][715]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.16:603][715]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:0015
+[2017.05.18-19.43.16:603][715]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.18:604][955]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:012A
+[2017.05.18-19.43.18:604][955]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.18:605][955]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:0015
+[2017.05.18-19.43.18:605][955]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.20:603][194]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:012A
+[2017.05.18-19.43.20:603][194]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.20:604][194]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:0015
+[2017.05.18-19.43.20:604][194]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.22:606][434]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:012A
+[2017.05.18-19.43.22:606][434]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.22:607][434]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:0015
+[2017.05.18-19.43.22:607][434]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.24:602][673]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:012A
+[2017.05.18-19.43.24:602][673]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.24:603][673]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:0015
+[2017.05.18-19.43.24:603][673]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.26:605][911]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:012A
+[2017.05.18-19.43.26:605][911]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.26:606][911]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:0015
+[2017.05.18-19.43.26:607][911]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.28:605][140]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:012A
+[2017.05.18-19.43.28:605][140]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.28:606][140]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:0015
+[2017.05.18-19.43.28:606][140]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.43.55:239][ 19]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-19.43.55:794][ 19]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.05.18-19.43.56:377][ 19]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.18-19.43.56:460][ 19]LogSlate: Took 0.010099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.18-19.43.56:621][ 20]LogSlate: Took 0.001510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.18-19.44.12:458][293]LogEditorTransaction: Undo 액터 클릭
+[2017.05.18-19.44.12:494][293]LogSlate: Took 0.000434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.18-19.44.13:671][376]LogEditorTransaction: Undo 액터 클릭
+[2017.05.18-19.44.14:136][408]LogEditorTransaction: Undo 액터 클릭
+[2017.05.18-19.44.14:350][422]LogEditorTransaction: Undo 액터 클릭
+[2017.05.18-19.44.48:092][420]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-19.44.48:108][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-19.44.48:108][420]PIE: New page: PIE 세션: HeroCreate (2017. 5. 19. 오후 1:44:48)
+[2017.05.18-19.44.48:108][420]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HeroCreate
+[2017.05.18-19.44.48:111][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003254s)
+[2017.05.18-19.44.48:112][420]LogAIModule: Creating AISystem for world HeroCreate
+[2017.05.18-19.44.48:112][420]LogPlayLevel: PIE: World Init took: (0.000906s)
+[2017.05.18-19.44.48:112][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HeroCreate.HeroCreate to /Game/Level/UEDPIE_0_HeroCreate.HeroCreate (0.004379s)
+[2017.05.18-19.44.48:148][420]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-19.44.48:161][420]LogInit: FAudioDevice initialized.
+[2017.05.18-19.44.48:196][420]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-19.44.48:197][420]LogWorld: Bringing World /Game/Level/UEDPIE_0_HeroCreate.HeroCreate up for play (max tick rate 0) at 2017.05.19-04.44.48
+[2017.05.18-19.44.48:198][420]LogWorld: Bringing up level for play took: 0.000855
+[2017.05.18-19.44.48:199][420]PIE: 정보 /Game/Level/UEDPIE_0_HeroCreate 에 대한 에디터에서 플레이 시작 시간: -0.644
+[2017.05.18-19.44.50:096][646]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:012A
+[2017.05.18-19.44.50:096][646]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.44.50:097][646]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:0015
+[2017.05.18-19.44.50:097][646]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.44.52:099][886]LogScript:Warning: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+	EnemySpawnerBP_C /Game/Level/UEDPIE_0_HeroCreate.HeroCreate:PersistentLevel.EnemySpawnerBP_158
+	Function /Game/Enemy/EnemySpawnerBP.EnemySpawnerBP_C:ExecuteUbergraph_EnemySpawnerBP:012A
+[2017.05.18-19.44.52:099][886]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.44.52:101][886]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.44.54:100][126]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.44.54:101][126]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.44.55:844][335]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.44.56:060][361]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.44.56:094][365]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.44.56:095][365]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.44.58:096][599]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.44.58:097][599]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.44.58:729][673]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.44.58:738][674]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.45.00:100][832]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.45.00:101][832]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.45.02:096][ 64]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.45.02:098][ 64]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.45.16:230][  0]LogRenderer: Reallocating scene render targets to support 760x500 NumSamples 1 (Frame:25131).
+[2017.05.18-19.45.34:329][216]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-19.45.34:342][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-19.45.34:342][216]PIE: New page: PIE 세션: HeroCreate (2017. 5. 19. 오후 1:45:34)
+[2017.05.18-19.45.34:342][216]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HeroCreate
+[2017.05.18-19.45.34:344][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002407s)
+[2017.05.18-19.45.34:345][216]LogAIModule: Creating AISystem for world HeroCreate
+[2017.05.18-19.45.34:345][216]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2017.05.18-19.45.34:345][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HeroCreate.HeroCreate to /Game/Level/UEDPIE_0_HeroCreate.HeroCreate (0.003429s)
+[2017.05.18-19.45.34:375][216]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-19.45.34:387][216]LogInit: FAudioDevice initialized.
+[2017.05.18-19.45.34:418][216]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-19.45.34:420][216]LogWorld: Bringing World /Game/Level/UEDPIE_0_HeroCreate.HeroCreate up for play (max tick rate 0) at 2017.05.19-04.45.34
+[2017.05.18-19.45.34:420][216]LogWorld: Bringing up level for play took: 0.001326
+[2017.05.18-19.45.34:422][216]PIE: 정보 /Game/Level/UEDPIE_0_HeroCreate 에 대한 에디터에서 플레이 시작 시간: -0.421
+[2017.05.18-19.45.36:334][442]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.45.36:335][442]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.45.38:337][682]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.45.38:338][682]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.45.41:813][ 62]LogEditorViewport: Clicking on Actor (context menu): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.05.18-19.46.08:784][285]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.18-19.46.50:005][932]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.18-19.46.51:947][976]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TakeHome05
+
+[2017.05.18-19.46.51:947][976]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-19.46.51:947][976]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.05.18-19.46.51:947][976]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.05.18-19.46.51:947][976]LogTemp:Display: BranchPath = ARONG-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = ARONG-PC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.05.18-19.46.52:000][981]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: 'C:\Users\ARONG\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles' ?????? ?Ϻθ? ã?? ?? ?????ϴ?.
+
+[2017.05.18-19.46.52:000][981]LogTemp:Display:    ??ġ: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.05.18-19.46.52:000][981]LogTemp:Display:    ??ġ: System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.05.18-19.46.52:000][981]LogTemp:Display:    ??ġ: System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.05.18-19.46.52:000][981]LogTemp:Display:    ??ġ: iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.05.18-19.46.52:000][981]LogTemp:Display:    ??ġ: iPhonePackager.Program.Main(String[] args)
+
+[2017.05.18-19.47.40:383][455]BlueprintLog: New page: HeroBP 컴파일
+[2017.05.18-19.47.40:940][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-19.47.40:981][456]LogSavePackage: Save=31.86ms
+[2017.05.18-19.47.40:981][456]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/HeroBPFB8D95D44923B8B2529479A1A2858567.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset'
+[2017.05.18-19.47.40:986][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset
+[2017.05.18-19.47.42:086][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hero/HeroBP" FILE="../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset" SILENT=true
+[2017.05.18-19.47.42:116][515]LogSavePackage: Save=24.35ms
+[2017.05.18-19.47.42:117][515]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/HeroBPF81BBF6F4BC62D16919EAEAAA415A30E.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset'
+[2017.05.18-19.47.42:119][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Hero/HeroBP.uasset
+[2017.05.18-19.47.43:722][639]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-19.47.43:735][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-19.47.43:735][639]PIE: New page: PIE 세션: HeroCreate (2017. 5. 19. 오후 1:47:43)
+[2017.05.18-19.47.43:735][639]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HeroCreate
+[2017.05.18-19.47.43:738][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002902s)
+[2017.05.18-19.47.43:738][639]LogAIModule: Creating AISystem for world HeroCreate
+[2017.05.18-19.47.43:739][639]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2017.05.18-19.47.43:739][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HeroCreate.HeroCreate to /Game/Level/UEDPIE_0_HeroCreate.HeroCreate (0.003856s)
+[2017.05.18-19.47.43:771][639]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-19.47.43:784][639]LogInit: FAudioDevice initialized.
+[2017.05.18-19.47.43:814][639]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-19.47.43:816][639]LogWorld: Bringing World /Game/Level/UEDPIE_0_HeroCreate.HeroCreate up for play (max tick rate 0) at 2017.05.19-04.47.43
+[2017.05.18-19.47.43:816][639]LogWorld: Bringing up level for play took: 0.001131
+[2017.05.18-19.47.43:818][639]PIE: 정보 /Game/Level/UEDPIE_0_HeroCreate 에 대한 에디터에서 플레이 시작 시간: 0.975
+[2017.05.18-19.47.45:729][867]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.45:730][867]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.47:141][ 36]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.47:731][106]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.47:732][106]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.48:391][185]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.49:499][318]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.49:725][345]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.49:726][345]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.50:450][428]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:459][429]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:467][430]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:476][431]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:487][432]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:495][433]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:504][434]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:512][435]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:520][436]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:529][437]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:537][438]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:546][439]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:554][440]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:563][441]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:572][442]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:582][443]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:591][444]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:599][445]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:607][446]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:615][447]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:624][448]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:632][449]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:641][450]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:649][451]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:658][452]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:667][453]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:676][454]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:686][455]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.50:693][456]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.51:497][550]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.51:732][577]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.51:733][577]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.53:731][810]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.53:732][810]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.55:725][ 48]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.55:726][ 48]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.56:641][146]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.57:730][255]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.57:731][255]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.58:017][282]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.58:652][341]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.58:872][362]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.59:558][429]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.59:569][430]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.59:578][431]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.59:588][432]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.59:598][433]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.47.59:727][446]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.59:729][446]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.47.59:745][448]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:548][625]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:559][626]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:569][627]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:580][628]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:591][629]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:602][630]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:654][635]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:665][636]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:675][637]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:686][638]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:728][642]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.01:729][642]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.01:877][656]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:888][657]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:898][658]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:909][659]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.01:920][660]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.02:007][668]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.02:737][736]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.03:625][817]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.03:727][826]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.03:728][826]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.05:731][ 20]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.05:732][ 20]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.07:730][259]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.07:731][259]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.08:417][340]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.09:731][461]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.09:733][461]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.10:536][525]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.10:986][559]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.11:026][562]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.11:040][563]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.11:737][615]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.11:738][615]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.12:455][673]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:468][674]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:479][675]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:490][676]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:501][677]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:512][678]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:749][698]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:763][699]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:774][700]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:786][701]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:798][702]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:810][703]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:823][704]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:835][705]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:848][706]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:860][707]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:873][708]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:886][709]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:899][710]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:911][711]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:936][713]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:946][714]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:958][715]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:971][716]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:984][717]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.12:996][718]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:009][719]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:022][720]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:034][721]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:047][722]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:059][723]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:072][724]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:085][725]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:098][726]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:112][727]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:125][728]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:148][730]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:161][731]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:174][732]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:186][733]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:200][734]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:213][735]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:224][736]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:237][737]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:249][738]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:261][739]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:274][740]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:286][741]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:302][742]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:314][743]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:327][744]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:328][744]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:340][745]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:340][745]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:353][746]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:366][747]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:378][748]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:516][759]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:737][776]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.13:738][776]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.13:749][777]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:762][778]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:777][779]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.13:841][784]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.14:940][865]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.14:951][866]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.14:964][867]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.14:977][868]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.14:990][869]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:002][870]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:016][871]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:029][872]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:043][873]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:055][874]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:068][875]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:083][876]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:095][877]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:107][878]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:120][879]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:133][880]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:148][881]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:158][882]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:170][883]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:184][884]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:196][885]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:209][886]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:221][887]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:234][888]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:248][889]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:259][890]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:271][891]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:283][892]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:295][893]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:307][894]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:321][895]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:510][912]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:521][913]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:531][914]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:542][915]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:554][916]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.15:725][931]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.15:726][931]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.16:416][986]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.16:430][987]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.16:443][988]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.16:456][989]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.16:469][990]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.16:481][991]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.17:727][ 88]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.17:728][ 88]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.17:751][ 90]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.17:763][ 91]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.17:777][ 92]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.17:789][ 93]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.18:174][123]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.18:187][124]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.18:201][125]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.18:212][126]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.18:307][133]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.18:440][143]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.18:584][154]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.48.19:729][240]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.19:731][240]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.48.38:614][ 84]LogSavePackage: Save=31.21ms
+[2017.05.18-19.48.38:614][ 84]LogSavePackage: Moving '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Saved/HeroCreateF97A3BAA4C9AA64BBB395AAB85679B91.tmp' to '../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Level/HeroCreate.umap'
+[2017.05.18-19.48.38:619][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ARONG/Documents/Unreal Projects/TakeHomeExam/TakeHome05/Content/Level/HeroCreate.umap
+[2017.05.18-19.49.35:513][380]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-19.49.35:525][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-19.49.35:526][380]PIE: New page: PIE 세션: HeroCreate (2017. 5. 19. 오후 1:49:35)
+[2017.05.18-19.49.35:526][380]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HeroCreate
+[2017.05.18-19.49.35:528][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002628s)
+[2017.05.18-19.49.35:530][380]LogAIModule: Creating AISystem for world HeroCreate
+[2017.05.18-19.49.35:530][380]LogPlayLevel: PIE: World Init took: (0.001711s)
+[2017.05.18-19.49.35:530][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HeroCreate.HeroCreate to /Game/Level/UEDPIE_0_HeroCreate.HeroCreate (0.004556s)
+[2017.05.18-19.49.35:562][380]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-19.49.35:575][380]LogInit: FAudioDevice initialized.
+[2017.05.18-19.49.35:606][380]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-19.49.35:607][380]LogWorld: Bringing World /Game/Level/UEDPIE_0_HeroCreate.HeroCreate up for play (max tick rate 0) at 2017.05.19-04.49.35
+[2017.05.18-19.49.35:608][380]LogWorld: Bringing up level for play took: 0.000959
+[2017.05.18-19.49.35:610][380]PIE: 정보 /Game/Level/UEDPIE_0_HeroCreate 에 대한 에디터에서 플레이 시작 시간: 0.767
+[2017.05.18-19.49.37:517][598]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.37:518][598]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.39:519][820]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.39:520][820]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.41:516][ 38]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.41:517][ 38]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.43:515][260]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.43:516][260]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.45:522][490]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.45:523][490]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.47:515][721]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.47:516][721]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.48:606][837]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.49:522][933]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.49:523][933]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.51:486][159]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.51:523][163]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.51:524][163]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.53:522][369]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.53:524][369]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.55:391][540]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.55:523][553]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.55:524][553]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.55:838][582]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.57:009][680]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.57:021][681]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.57:035][682]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.57:046][683]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.57:057][684]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.57:070][685]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.57:082][686]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.57:349][708]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.49.57:518][722]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.57:519][722]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.49.57:603][729]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.50.16:476][875]LogActorFactory: Actor Factory created Cube
+[2017.05.18-19.50.17:322][965]LogActorFactory: Actor Factory created Cube
+[2017.05.18-19.50.25:327][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.05.18-19.50.25:641][910]Cmd: DELETE
+[2017.05.18-19.50.25:641][910]Cmd: ACTOR DELETE
+[2017.05.18-19.50.25:786][910]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.18-19.50.25:829][910]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2017.05.18-19.50.30:465][445]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.05.18-19.50.52:738][792]LogTexture:Display: 텍스처 빌드중: Texture2D_2 (G8, 128X128) - 91 MB 총 VRAM
+[2017.05.18-19.50.55:821][ 98]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.05.18-19.51.13:043][ 57]Cmd: TRANSACTION UNDO
+[2017.05.18-19.51.13:043][ 57]LogEditorTransaction: Undo 모디파이어 [플립]
+[2017.05.18-19.51.14:597][216]LogEditorViewport: Clicking on Actor (context menu): Brush (Box 브러시)
+[2017.05.18-19.51.27:498][735]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.05.18-19.51.27:500][735]LogTexture:Display: 텍스처 빌드중: Texture2D_3 (G8, 128X128) - 91 MB 총 VRAM
+[2017.05.18-19.51.40:578][270]LogTexture:Display: 텍스처 빌드중: Texture2D_4 (G8, 128X128) - 91 MB 총 VRAM
+[2017.05.18-19.52.00:551][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.05.18-19.53.28:738][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-19.53.32:443][ 44]Cmd: TRANSACTION UNDO
+[2017.05.18-19.53.32:443][ 44]LogEditorTransaction: Undo 액터 클릭
+[2017.05.18-19.53.32:878][ 66]Cmd: TRANSACTION UNDO
+[2017.05.18-19.53.32:878][ 66]LogEditorTransaction: Undo 액터 이동
+[2017.05.18-19.53.32:895][ 66]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.05.18-19.53.32:895][ 66]LogGeometryMode:Warning: Unable to resolve Box브러시 Brush in new BSP, see above
+[2017.05.18-19.53.32:895][ 66]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-19.53.33:430][122]Cmd: TRANSACTION UNDO
+[2017.05.18-19.53.33:430][122]LogEditorTransaction: Undo 액터 이동
+[2017.05.18-19.53.33:433][122]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2017.05.18-19.53.33:433][122]LogGeometryMode:Warning: Unable to resolve Box브러시 Brush in new BSP, see above
+[2017.05.18-19.53.33:433][122]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.18-19.53.33:853][167]Cmd: TRANSACTION UNDO
+[2017.05.18-19.53.33:853][167]LogEditorTransaction: Undo 액터 이동
+[2017.05.18-19.53.34:343][220]Cmd: TRANSACTION UNDO
+[2017.05.18-19.53.34:343][220]LogEditorTransaction: Undo 모디파이어 [편집]
+[2017.05.18-19.53.34:829][271]Cmd: TRANSACTION UNDO
+[2017.05.18-19.53.34:829][271]LogEditorTransaction: Undo 모디파이어 [돌출]
+[2017.05.18-19.53.35:291][321]Cmd: TRANSACTION UNDO
+[2017.05.18-19.53.35:291][321]LogEditorTransaction: Undo 모디파이어 [플립]
+[2017.05.18-19.53.48:673][841]LogEditorViewport: Clicking on Actor (context menu): Brush (Box 브러시)
+[2017.05.18-19.53.49:362][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.18-19.54.04:504][672]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.18-19.54.15:963][980]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.18-19.54.32:126][812]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.18-19.54.46:566][489]Cmd: TRANSACTION UNDO
+[2017.05.18-19.54.46:566][489]LogEditorTransaction: Undo 모디파이어 [편집]
+[2017.05.18-19.54.47:660][600]Cmd: TRANSACTION UNDO
+[2017.05.18-19.54.47:660][600]LogEditorTransaction: Undo 모디파이어 [트라이앵글화]
+[2017.05.18-19.54.48:817][731]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.18-19.54.54:363][327]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.05.18-19.54.54:375][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.18-19.54.54:376][327]PIE: New page: PIE 세션: HeroCreate (2017. 5. 19. 오후 1:54:54)
+[2017.05.18-19.54.54:376][327]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HeroCreate
+[2017.05.18-19.54.54:380][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004474s)
+[2017.05.18-19.54.54:381][327]LogAIModule: Creating AISystem for world HeroCreate
+[2017.05.18-19.54.54:381][327]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2017.05.18-19.54.54:381][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HeroCreate.HeroCreate to /Game/Level/UEDPIE_0_HeroCreate.HeroCreate (0.005504s)
+[2017.05.18-19.54.54:414][327]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.18-19.54.54:428][327]LogInit: FAudioDevice initialized.
+[2017.05.18-19.54.54:459][327]LogLoad: Game class is 'ShooterGameMode_C'
+[2017.05.18-19.54.54:460][327]LogWorld: Bringing World /Game/Level/UEDPIE_0_HeroCreate.HeroCreate up for play (max tick rate 0) at 2017.05.19-04.54.54
+[2017.05.18-19.54.54:485][327]LogWorld: Bringing up level for play took: 0.025824
+[2017.05.18-19.54.54:488][327]PIE: 정보 /Game/Level/UEDPIE_0_HeroCreate 에 대한 에디터에서 플레이 시작 시간: -0.355
+[2017.05.18-19.54.56:371][551]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.54.56:372][551]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.54.57:779][720]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.54.58:370][791]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.54.58:372][791]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.54.59:618][939]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.00:370][ 29]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.00:372][ 29]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.00:395][ 32]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.00:462][ 40]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.02:015][217]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.02:024][218]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.02:033][219]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.02:277][246]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.02:286][247]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.02:294][248]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.02:365][256]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.02:367][256]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.02:749][299]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.02:758][300]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.03:517][386]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.04:373][484]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.04:374][484]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=26.020 Y=32.317 Z=63.139] for [EnemyBP_C]
+[2017.05.18-19.55.04:374][484]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.06:038][670]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:048][671]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:057][672]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:372][707]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.06:373][707]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.06:443][715]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:452][716]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:462][717]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:507][722]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:517][723]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:525][724]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:726][746]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:735][747]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:744][748]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:753][749]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:762][750]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:772][751]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:781][752]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:791][753]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:799][754]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:808][755]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:817][756]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:826][757]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:836][758]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:844][759]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:854][760]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:863][761]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:871][762]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:881][763]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:889][764]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:898][765]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:907][766]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:916][767]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:926][768]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:943][770]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.06:953][771]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.07:423][824]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.07:432][825]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.07:440][826]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.07:450][827]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.07:925][882]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.08:367][933]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.08:369][933]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.10:370][148]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.10:371][148]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.10:573][170]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.11:981][323]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.12:369][364]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.12:371][364]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.14:207][538]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.14:374][554]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.14:375][554]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.15:202][631]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.15:905][696]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (Decread Hero Hp) or object (HeroBP_C_0)
+[2017.05.18-19.55.16:368][739]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.16:368][739]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=228.130 Y=-405.123 Z=96.597] for [EnemyBP_C]
+[2017.05.18-19.55.16:369][739]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.18:373][925]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Branch 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.18:375][925]PIE:Error: 오류 블루프린트 런타임 오류: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다. 다음 함수에서: 'ExecuteUbergraph_EnemySpawnerBP' 노드: Increase Enemy 그래프: EventGraph 오브젝트: EnemySpawnerBP 설명: Accessed None 이 GameMode 프로퍼티를 읽으려 합니다.
+[2017.05.18-19.55.30:580][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
